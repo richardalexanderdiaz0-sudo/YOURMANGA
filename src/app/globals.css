@@ -1,0 +1,80 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 340 25% 98%;
+    --foreground: 340 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 10%;
+    --primary: 325 100% 63%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 325 30% 95%;
+    --secondary-foreground: 325 100% 40%;
+    --muted: 340 10% 92%;
+    --muted-foreground: 340 10% 40%;
+    --accent: 300 82% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 325 100% 63%;
+    --radius: 1.5rem;
+  }
+
+  .dark {
+    --background: 340 10% 5%;
+    --foreground: 340 5% 95%;
+    --card: 340 10% 8%;
+    --card-foreground: 340 5% 95%;
+    --popover: 340 10% 8%;
+    --popover-foreground: 340 5% 95%;
+    --primary: 325 100% 63%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 340 10% 15%;
+    --secondary-foreground: 325 100% 63%;
+    --muted: 340 10% 15%;
+    --muted-foreground: 340 5% 65%;
+    --accent: 300 82% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 340 10% 20%;
+    --input: 340 10% 20%;
+    --ring: 325 100% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+.cartoon-shadow {
+  box-shadow: 6px 6px 0px 0px rgba(255, 68, 178, 0.2);
+}
+
+.cartoon-border {
+  border-width: 3px;
+  border-color: hsl(var(--border));
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

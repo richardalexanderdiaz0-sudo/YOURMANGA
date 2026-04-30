@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "manga-1",
+      "description": "Epic Action Manga Cover",
+      "imageUrl": "https://picsum.photos/seed/m1/400/600",
+      "imageHint": "manga action"
+    },
+    {
+      "id": "manga-2",
+      "description": "Romance Manhwa Cover",
+      "imageUrl": "https://picsum.photos/seed/m2/400/600",
+      "imageHint": "manhwa romance"
+    },
+    {
+      "id": "manga-3",
+      "description": "Fantasy Comic Cover",
+      "imageUrl": "https://picsum.photos/seed/m3/400/600",
+      "imageHint": "fantasy comic"
+    },
+    {
+      "id": "manga-4",
+      "description": "Daily School Life Manga",
+      "imageUrl": "https://picsum.photos/seed/m4/400/600",
+      "imageHint": "school manga"
+    },
+    {
+      "id": "hero-1",
+      "description": "Featured Trending Manga",
+      "imageUrl": "https://picsum.photos/seed/h1/1200/800",
+      "imageHint": "manga art"
+    }
+  ]
+}
